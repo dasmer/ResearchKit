@@ -1,0 +1,14 @@
+PODS:
+  - ResearchKit (1.0.0)
+
+DEPENDENCIES:
+  - ResearchKit (from `../../`)
+
+EXTERNAL SOURCES:
+  ResearchKit:
+    :path: "../../"
+
+SPEC CHECKSUMS:
+  ResearchKit: 9355c56d4e45556bcfb27a8ef874f19af6533f93
+
+COCOAPODS: 0.36.3

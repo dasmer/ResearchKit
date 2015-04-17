@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E0D86F5083B719E08437B8E /* Pods_ORKCatalog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD7EEE9C3E5251FAA29E9A9 /* Pods_ORKCatalog.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		3E39B9FB1ABF682D00C2ABE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E39B9F91ABF682D00C2ABE5 /* Main.storyboard */; };
 		3E39B9FE1ABF683700C2ABE5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E39B9FC1ABF683700C2ABE5 /* LaunchScreen.xib */; };
 		3E39BA001ABF683F00C2ABE5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E39B9FF1ABF683F00C2ABE5 /* Images.xcassets */; };
@@ -18,33 +19,7 @@
 		86B89AA31AB2C0A5001626A4 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B89A9A1AB2C0A5001626A4 /* ResultViewController.swift */; };
 		86B89AA41AB2C0A5001626A4 /* TaskListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B89A9B1AB2C0A5001626A4 /* TaskListViewController.swift */; };
 		86B89AA51AB2C0A5001626A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B89A9C1AB2C0A5001626A4 /* AppDelegate.swift */; };
-		B115EE121AC1221F001DDE62 /* ResearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E39BA091ABF687E00C2ABE5 /* ResearchKit.framework */; };
-		B115EE131AC1221F001DDE62 /* ResearchKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3E39BA091ABF687E00C2ABE5 /* ResearchKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		3E39BA081ABF687E00C2ABE5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3E39BA011ABF687E00C2ABE5 /* ResearchKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = B183A5951A8535D100C76870;
-			remoteInfo = OpenResearchKit;
-		};
-		86822F791ACE136F0068ECA5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3E39BA011ABF687E00C2ABE5 /* ResearchKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 86CC8E9A1AC09332001CCD89;
-			remoteInfo = ResearchKitTests;
-		};
-		B115EE141AC1221F001DDE62 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3E39BA011ABF687E00C2ABE5 /* ResearchKit.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = B183A4731A8535D100C76870;
-			remoteInfo = OpenResearchKit;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		B19A7FA01AB7564B00D090AD /* Embed Frameworks */ = {
@@ -53,7 +28,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				B115EE131AC1221F001DDE62 /* ResearchKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,7 +39,6 @@
 		3E39B9FA1ABF682D00C2ABE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3E39B9FD1ABF683700C2ABE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3E39B9FF1ABF683F00C2ABE5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		3E39BA011ABF687E00C2ABE5 /* ResearchKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ResearchKit.xcodeproj; path = ../../../ResearchKit.xcodeproj; sourceTree = "<group>"; };
 		3E4104A31AC0E938001B2302 /* ImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
 		3E838B8A1ABFDCED006AE2D4 /* ResultTableViewProviders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultTableViewProviders.swift; sourceTree = "<group>"; };
 		3ED967B91AC13D37007E2D83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -77,6 +50,9 @@
 		86B89A9A1AB2C0A5001626A4 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = ResultViewController.swift; path = ORKCatalog/ResultViewController.swift; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		86B89A9B1AB2C0A5001626A4 /* TaskListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TaskListViewController.swift; path = ORKCatalog/TaskListViewController.swift; sourceTree = SOURCE_ROOT; };
 		86B89A9C1AB2C0A5001626A4 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ORKCatalog/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		B61B73AA04928944D827205F /* Pods-ORKCatalog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ORKCatalog.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ORKCatalog/Pods-ORKCatalog.debug.xcconfig"; sourceTree = "<group>"; };
+		B7B5D23E4917C830B773AAA7 /* Pods-ORKCatalog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ORKCatalog.release.xcconfig"; path = "Pods/Target Support Files/Pods-ORKCatalog/Pods-ORKCatalog.release.xcconfig"; sourceTree = "<group>"; };
+		CAD7EEE9C3E5251FAA29E9A9 /* Pods_ORKCatalog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ORKCatalog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,28 +61,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				863CCD821ACF545E009FD3B4 /* HealthKit.framework in Frameworks */,
-				B115EE121AC1221F001DDE62 /* ResearchKit.framework in Frameworks */,
+				1E0D86F5083B719E08437B8E /* Pods_ORKCatalog.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CC199CE3DDD4B7A251BFBB5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B61B73AA04928944D827205F /* Pods-ORKCatalog.debug.xcconfig */,
+				B7B5D23E4917C830B773AAA7 /* Pods-ORKCatalog.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3E39B9EC1ABF67AA00C2ABE5 /* ResearchKit */ = {
 			isa = PBXGroup;
 			children = (
-				3E39BA011ABF687E00C2ABE5 /* ResearchKit.xcodeproj */,
 			);
 			name = ResearchKit;
-			sourceTree = "<group>";
-		};
-		3E39BA021ABF687E00C2ABE5 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3E39BA091ABF687E00C2ABE5 /* ResearchKit.framework */,
-				86822F7A1ACE136F0068ECA5 /* ResearchKitTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		3E838B881ABFD0E5006AE2D4 /* Presenting Tasks */ = {
@@ -128,6 +103,14 @@
 			name = "Displaying Results";
 			sourceTree = "<group>";
 		};
+		6EC10B0694794552BCB64729 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAD7EEE9C3E5251FAA29E9A9 /* Pods_ORKCatalog.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		869230B51AAA890A00BFE11B = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +118,8 @@
 				3E39B9E81ABF675000C2ABE5 /* README.md */,
 				869230C01AAA890A00BFE11B /* ORKCatalog */,
 				869230BF1AAA890A00BFE11B /* Products */,
+				2CC199CE3DDD4B7A251BFBB5 /* Pods */,
+				6EC10B0694794552BCB64729 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -178,15 +163,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 869230DF1AAA890A00BFE11B /* Build configuration list for PBXNativeTarget "ORKCatalog" */;
 			buildPhases = (
+				625148DE5E325D31C4C8B95E /* Check Pods Manifest.lock */,
 				869230BA1AAA890A00BFE11B /* Sources */,
 				869230BB1AAA890A00BFE11B /* Frameworks */,
 				869230BC1AAA890A00BFE11B /* Resources */,
 				B19A7FA01AB7564B00D090AD /* Embed Frameworks */,
+				9A12F9FD5B13FB2E22709F73 /* Embed Pods Frameworks */,
+				88C7F67CFC08ACFA39DA4073 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B115EE151AC1221F001DDE62 /* PBXTargetDependency */,
 			);
 			name = ORKCatalog;
 			productName = Consent.swift;
@@ -219,35 +206,12 @@
 			mainGroup = 869230B51AAA890A00BFE11B;
 			productRefGroup = 869230BF1AAA890A00BFE11B /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 3E39BA021ABF687E00C2ABE5 /* Products */;
-					ProjectRef = 3E39BA011ABF687E00C2ABE5 /* ResearchKit.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				869230BD1AAA890A00BFE11B /* ORKCatalog */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		3E39BA091ABF687E00C2ABE5 /* ResearchKit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ResearchKit.framework;
-			remoteRef = 3E39BA081ABF687E00C2ABE5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		86822F7A1ACE136F0068ECA5 /* ResearchKitTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = ResearchKitTests.xctest;
-			remoteRef = 86822F791ACE136F0068ECA5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		869230BC1AAA890A00BFE11B /* Resources */ = {
@@ -262,6 +226,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		625148DE5E325D31C4C8B95E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		88C7F67CFC08ACFA39DA4073 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ORKCatalog/Pods-ORKCatalog-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A12F9FD5B13FB2E22709F73 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ORKCatalog/Pods-ORKCatalog-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		869230BA1AAA890A00BFE11B /* Sources */ = {
@@ -278,14 +290,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B115EE151AC1221F001DDE62 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = OpenResearchKit;
-			targetProxy = B115EE141AC1221F001DDE62 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3E39B9F91ABF682D00C2ABE5 /* Main.storyboard */ = {
@@ -394,6 +398,7 @@
 		};
 		869230E01AAA890A00BFE11B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B61B73AA04928944D827205F /* Pods-ORKCatalog.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = ORKCatalog/ORKCatalog.entitlements;
@@ -408,6 +413,7 @@
 		};
 		869230E11AAA890A00BFE11B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7B5D23E4917C830B773AAA7 /* Pods-ORKCatalog.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = ORKCatalog/ORKCatalog.entitlements;
