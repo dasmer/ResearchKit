@@ -1,0 +1,1 @@
+../../../../../../ResearchKit/ActiveTasks/CMAccelerometerData+ORKJSONDictionary.h

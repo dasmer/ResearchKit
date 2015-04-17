@@ -1,0 +1,1 @@
+../../../../../../ResearchKit/Common/ORKScaleValueLabel.h
